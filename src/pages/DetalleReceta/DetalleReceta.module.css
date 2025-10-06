@@ -1,0 +1,48 @@
+.contenedorPpal{
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem; 
+    border: 1px solid #3a3042;
+    flex-wrap: wrap;
+    display: flex;
+}
+.tituloCard{
+    font-size: 3rem;
+    background-color: rgb(220, 222, 247);
+    color: #3a3042;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.subtitulo{
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.botonBueno{
+    background-color: #3a3042;
+    color: aliceblue;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.botonMalo{
+    background-color: aliceblue;
+    color: #3a3042;
+    border: 1px solid #3a3042;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.edicion{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}

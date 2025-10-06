@@ -1,0 +1,23 @@
+.myNavbar{
+    background-color: #3a3042; 
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+}
+.myNavbar a{
+    color:#edffd9;
+    text-align: center;
+    margin: 0 10px;
+}
+.myNavbar a:hover{
+    background-color: #edffd9;
+    color:#3a3042;
+
+}
+.myNavbar a:active{
+    color:#ffe19c;
+    font-weight: bold;
+
+}
