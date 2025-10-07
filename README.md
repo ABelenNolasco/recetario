@@ -4,12 +4,12 @@ Este proyecto simula un recetario donde se pueden agregar, eliminar y editar rec
 #Ejecución local:
 
 1. clonar repositorio (por consola)
-   git clone ........
+   git clone https://github.com/ABelenNolasco/recetario.git
 2. instalar dependencias:
    npm install
 3.configurar firebase
   crear proyecto en firebase
-  agregar configuracion del proyecto en firebase>config
+  crear un archico .env en la raiz del repositorio  y colocar credenciales del proyecto defirebase
 4.ejecución (generalmente en puerto 3000)
   npm start
   
