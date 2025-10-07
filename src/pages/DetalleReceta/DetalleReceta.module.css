@@ -1,13 +1,15 @@
-.contenedorPpal{
+.contenedorPpal {
     max-width: 600px;
     margin: 2rem auto;
     padding: 1rem; 
     border: 1px solid #3a3042;
-    flex-wrap: wrap;
     display: flex;
+    flex-direction: column; /* apila las cards verticalmente */
+    gap: 1rem;              /* espacio entre elementos */
 }
-.tituloCard{
-    font-size: 3rem;
+
+.tituloCard {
+    font-size: 2rem;           /* un poco más pequeño para que quepa mejor */
     background-color: rgb(220, 222, 247);
     color: #3a3042;
     text-align: center;
@@ -15,13 +17,19 @@
     margin-bottom: 1rem;
     padding: 1rem;
     border-radius: 5px;
+
+    max-width: 100%;           /* nunca supera el ancho del contenedor */
+    word-wrap: break-word;     /* rompe palabras largas */
+    overflow-wrap: break-word; /* soporte moderno */
 }
-.subtitulo{
+
+.subtitulo {
     font-size: 1rem;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
 }
-.botonBueno{
+
+.botonBueno {
     background-color: #3a3042;
     color: aliceblue;
     border: none;
@@ -31,7 +39,8 @@
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
-.botonMalo{
+
+.botonMalo {
     background-color: aliceblue;
     color: #3a3042;
     border: 1px solid #3a3042;
@@ -40,7 +49,8 @@
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
-.edicion{
+
+.edicion {
     display: flex;
     flex-direction: column;
     gap: 1rem;
