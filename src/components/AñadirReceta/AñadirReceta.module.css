@@ -46,3 +46,10 @@
     margin-top: -15px;
     margin-bottom: 10px;
 }
+.container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #edffd9;
+}

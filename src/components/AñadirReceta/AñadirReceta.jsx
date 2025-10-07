@@ -23,7 +23,7 @@ export default function AñadirReceta() {
   };
 
   return (
-    <div>
+    <div className={styles.container}>
       <h2 className={styles.titulo}>Nueva Receta</h2>
       <form className={styles.añadirReceta} onSubmit={handleSubmit(enviar)}>
         <input 
